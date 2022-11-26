@@ -1,8 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#ifdef PRINT
-#define DEBUG_PRINT(x); printf(x);
+#ifdef DEBUG
+	#define DEBUG_PRINT(fmt, ...) printf(fmt, ##__VA_ARGS__)
+#else
+	#define DEBUG_PRINT(fmt, ...)
 #endif
 
 using ll = long long;
