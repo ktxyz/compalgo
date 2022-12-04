@@ -1,0 +1,1 @@
+g++ -std=c++14 -O2 -Wall -DDEBUG $1/$1.cpp -o $1/$1.out
